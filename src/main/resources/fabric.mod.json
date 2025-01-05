@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "zunpet",
+    "version": "${version}",
+    "name": "Zunpet",
+    "description": "",
+    "authors": ["Arrokoth233"],
+    "contact": {
+        "repo": "https://github.com/Arrokoth/ZunpetMod"
+    },
+    "license": "MIT",
+    "icon": "assets/zunpet/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            "dev.arrokoth.zunpet.zunpet.client.ZunpetClient"
+        ],
+        "main": [
+            "dev.arrokoth.zunpet.zunpet.Zunpet"
+        ]
+    },
+    "mixins": [
+        "zunpet.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
