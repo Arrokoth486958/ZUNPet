@@ -19,9 +19,6 @@
             "dev.arrokoth.zunpet.zunpet.Zunpet"
         ]
     },
-    "mixins": [
-        "zunpet.mixins.json"
-    ],
     "depends": {
         "fabricloader": ">=${loader_version}",
         "fabric": "*",
